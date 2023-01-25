@@ -22,7 +22,7 @@ public class S009_MultiplewindowHandling {
 			if(!win.equals(mainWin))
 			{
 				driver.switchTo().window(win);
-			}
+			} 
 		}
 		
 		driver.findElement(By.name("emailid")).sendKeys("tops@gmail.com");
